@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">AppManillas</string>
+    <string name="titulo">App Manillas</string>
+    <string name="nombres">Nombres completos</string>
+    <string name="apellidos">Apellidos completos</string>
+    <string name="personaliza_tu_manilla">Escoge tu manilla (Personalizada)</string>
+    <string name="material">Material</string>
+    <string name="dije">Dije</string>
+    <string name="tipo_dije">Tipo de dije</string>
+    <string name="tipo_de_moneda">Tipo de moneda</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="digite_cantidad">Digite cantidad de manillas</string>
+    <string name="borrar">Borrar</string>
+    <string name="comprar">comprar</string>
 </resources>
