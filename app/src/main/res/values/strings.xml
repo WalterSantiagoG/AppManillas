@@ -12,4 +12,35 @@
     <string name="digite_cantidad">Digite cantidad de manillas</string>
     <string name="borrar">Borrar</string>
     <string name="comprar">comprar</string>
+    <string name="mensaje_error_uno">Digite sus nombres completos</string>
+    <string name="mensaje_error_dos">Digite sus apellidos completos</string>
+    <string name="mensaje_error_tres">Digite la cantidad de manillas</string>
+    <string-array name="materiales">
+        <item>@string/cuero</item>
+        <item>@string/cuerda</item>
+    </string-array>
+    <string-array name="dijes">
+        <item>@string/martillo</item>
+        <item>@string/ancla</item>
+    </string-array>
+    <string-array name="tiposDeDijes">
+        <item>@string/oro</item>
+        <item>@string/ororosado</item>
+        <item>@string/plata</item>
+        <item>@string/niquel</item>
+    </string-array>
+    <string-array name="TiposDeMonedas">
+        <item>@string/pesos</item>
+        <item>@string/dolares</item>
+    </string-array>
+    <string name="cuero">cuero</string>
+    <string name="cuerda">cuerda</string>
+    <string name="martillo">Martillo</string>
+    <string name="ancla">Ancla</string>
+    <string name="oro">Oro</string>
+    <string name="ororosado">Oro rosado</string>
+    <string name="plata">Plata</string>
+    <string name="niquel">Niquel</string>
+    <string name="pesos">Pesos</string>
+    <string name="dolares">Dolares</string>
 </resources>

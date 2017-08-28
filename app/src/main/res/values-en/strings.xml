@@ -2,4 +2,18 @@
 <resources>
     <string name="app_name">AppHandcuffs</string>
     <string name="titulo">AppHandcuffs</string>
+    <string name="borrar">Delete</string>
+    <string name="cantidad">Quantity</string>
+    <string name="comprar">Buy</string>
+    <string name="digite_cantidad">Digitel number of handles</string>
+    <string name="dije">Said</string>
+    <string name="material">Material</string>
+    <string name="nombres">Complete names</string>
+    <string name="personaliza_tu_manilla">Choose yout handle</string>
+    <string name="tipo_de_moneda">Type of currency</string>
+    <string name="tipo_dije">Type of pendant</string>
+    <string name="apellidos">Complete surnames</string>
+    <string name="mensaje_error_uno">Enter their full name</string>
+    <string name="mensaje_error_dos">Enter your full surnames</string>
+    <string name="mensaje_error_tres">Digitel number of handles</string>
 </resources>

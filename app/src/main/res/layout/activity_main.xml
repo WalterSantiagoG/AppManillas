@@ -25,7 +25,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/txtNombres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.04"
@@ -35,7 +35,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/txtApellidos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.04"
@@ -105,7 +105,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/txtCantidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.04"
@@ -138,6 +138,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="borrar"
                 android:text="@string/borrar" />
 
             <Button
@@ -145,11 +146,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="comprar"
                 android:text="@string/comprar" />
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txtResultado"
+            android:id="@+id/lblResultado"
             android:layout_width="match_parent"
             android:layout_height="36dp" />
 
