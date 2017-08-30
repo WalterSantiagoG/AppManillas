@@ -16,4 +16,16 @@
     <string name="mensaje_error_uno">Enter their full name</string>
     <string name="mensaje_error_dos">Enter your full surnames</string>
     <string name="mensaje_error_tres">Digitel number of handles</string>
+    <string name="valor_mayor_a_cero">Enter a value greater than zero</string>
+    <string name="plata">Silver</string>
+    <string name="pesos">Pesos</string>
+    <string name="ororosado">Pink gold</string>
+    <string name="oro">Gold</string>
+    <string name="niquel">Nickel</string>
+    <string name="martillo">Hammer</string>
+    <string name="dolares">Dollars</string>
+    <string name="cuero">Leather</string>
+    <string name="cuerda">Rope</string>
+    <string name="ancla">Anchor</string>
+    <string name="valor_a_pagar">" Your value to pay is"</string>
 </resources>

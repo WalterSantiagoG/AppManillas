@@ -79,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
 
+        if (Integer.parseInt(cantidad.getText().toString())==0) {
+            Toast.makeText(this, resources.getString(R.string.valor_mayor_a_cero),Toast.LENGTH_SHORT).show();
+            return false;
+        }
+
         return true;
     }
 
@@ -142,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
            opcion4=tipoDeMoneda.getSelectedItemPosition();
            switch (opcion4){
                case 0:
-                   tipoDeMonedaEscogida = "Pesos";
+                   tipoDeMonedaEscogida = resources.getString(R.string.pesos);
                    if (materialEscogido == "Cuero" && dijeEscogido == "Martillo"){
                        if (tipoDeDijeEscogido == "Oro" || tipoDeDijeEscogido == "Oro rosado"){
                            pagoTotal = 100*3200;
@@ -179,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
                    pagoTotalMasCant = pagoTotal * Integer.parseInt(cantidad.getText().toString());
                    break;
                case 1:
-                   tipoDeMonedaEscogida = "Dolares";
+                   tipoDeMonedaEscogida = resources.getString(R.string.dolares);
                    if (materialEscogido == "Cuero" && dijeEscogido == "Martillo"){
                        if (tipoDeDijeEscogido == "Oro" || tipoDeDijeEscogido == "Oro rosado"){
                            pagoTotal = 100;
@@ -217,8 +222,7 @@ public class MainActivity extends AppCompatActivity {
                    break;
            }
 
-           res.setText(nombres.getText().toString() +" "+ apellidos.getText().toString() +" "+Integer.parseInt(cantidad.getText().toString())+" "+
-                   materialEscogido+" "+dijeEscogido+" "+tipoDeDijeEscogido+" "+tipoDeMonedaEscogida+" "+" Su valor a pagar es: "+ pagoTotalMasCant+ " "+tipoDeMonedaEscogida);
+           res.setText(nombres.getText().toString() +" "+ apellidos.getText().toString() +" \n"+ resources.getString(R.string.valor_a_pagar) +": "+ pagoTotalMasCant+ " "+tipoDeMonedaEscogida);
 
        }
 

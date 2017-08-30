@@ -43,4 +43,6 @@
     <string name="niquel">Niquel</string>
     <string name="pesos">Pesos</string>
     <string name="dolares">Dolares</string>
+    <string name="valor_mayor_a_cero">Digite un valor mayor a cero</string>
+    <string name="valor_a_pagar">Su valor a pagar es</string>
 </resources>
